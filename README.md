@@ -1,4 +1,3 @@
-
 # Implementasi Data Mining untuk Klasterisasi Karakteristik Kerusakan Perangkat Elektronik Menggunakan Algoritma K-Means
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge&logo=python)
