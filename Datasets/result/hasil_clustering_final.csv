@@ -1,0 +1,34 @@
+Sparepart,Frekuensi_Transaksi,Total_Unit,Rata_Harga,Cluster,Kategori
+ADAPTOR,1,1.0,250000.0,1,Medium Priority
+BATERAI,29,29.0,200000.0,1,Medium Priority
+BATTERY,183,194.0,174426.22950819673,2,High Priority (Sering Rusak)
+CARR UNIT,7,8.0,71428.57142857143,0,Low Priority (Jarang Rusak)
+GEAR KOMBINASI,6,6.0,25000.0,0,Low Priority (Jarang Rusak)
+GEAR RDA,36,36.0,25000.0,0,Low Priority (Jarang Rusak)
+HEAD PRINT NEW,85,85.0,500000.0,1,Medium Priority
+HEADNOSE,12,12.0,50000.0,0,Low Priority (Jarang Rusak)
+JARUM,14,50.0,15000.0,0,Low Priority (Jarang Rusak)
+KABEL DC,1,1.0,70000.0,0,Low Priority (Jarang Rusak)
+KABEL FLEXI,6,6.0,20000.0,0,Low Priority (Jarang Rusak)
+KABEL HEAD PRINT,32,32.0,25000.0,0,Low Priority (Jarang Rusak)
+KABEL USB TO PRINTER,2,2.0,60000.0,0,Low Priority (Jarang Rusak)
+KNOP,9,9.0,25000.0,0,Low Priority (Jarang Rusak)
+KRAN,6,6.0,250000.0,1,Medium Priority
+PAPPER GUIDE,2,2.0,25000.0,0,Low Priority (Jarang Rusak)
+PER,9,29.0,8000.0,0,Low Priority (Jarang Rusak)
+PITA RIBBON,1,1.0,50000.0,0,Low Priority (Jarang Rusak)
+Power Supply,1,1.0,300000.0,1,Medium Priority
+RIBBON CARTRIDGE,2,2.0,162500.0,1,Medium Priority
+RIBBON MASK,1,1.0,20000.0,0,Low Priority (Jarang Rusak)
+RING,1,3.0,10000.0,0,Low Priority (Jarang Rusak)
+RUMAHAN GEAR RDA,7,7.0,50000.0,0,Low Priority (Jarang Rusak)
+SEAL KRAN,37,56.0,8750.0,0,Low Priority (Jarang Rusak)
+SENSOR PANAS,25,28.0,125000.0,0,Low Priority (Jarang Rusak)
+SOCKET PSU,2,2.0,25000.0,0,Low Priority (Jarang Rusak)
+STEKER,1,1.0,40000.0,0,Low Priority (Jarang Rusak)
+STOP KONTAK,1,1.0,30000.0,0,Low Priority (Jarang Rusak)
+SWITCH ON/OFF,25,25.0,25000.0,0,Low Priority (Jarang Rusak)
+TERMOSTART,26,30.0,125000.0,0,Low Priority (Jarang Rusak)
+TERMOSTAT,15,17.0,125000.0,0,Low Priority (Jarang Rusak)
+TIMMING BELT,5,5.0,35000.0,0,Low Priority (Jarang Rusak)
+TRACTOR,6,6.0,240000.0,1,Medium Priority
