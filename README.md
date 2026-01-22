@@ -1,3 +1,4 @@
+
 # Implementasi Data Mining untuk Klasterisasi Karakteristik Kerusakan Perangkat Elektronik Menggunakan Algoritma K-Means
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge&logo=python)
@@ -7,29 +8,29 @@
 
 ## 📌 Pendahuluan
 
-Proyek ini bertujuan untuk menganalisis pola kerusakan perangkat elektronik dan memberikan rekomendasi manajemen stok *sparepart* yang lebih efisien. Menggunakan algoritma **K-Means Clustering**, sistem mengelompokkan *sparepart* berdasarkan frekuensi kerusakan dan harga rata-rata untuk menentukan prioritas stok (High, Medium, Low Priority).
+Proyek ini bertujuan untuk menganalisis pola kerusakan perangkat elektronik dan memberikan rekomendasi manajemen stok sparepart yang lebih efisien. Menggunakan algoritma **K-Means Clustering**, sistem mengelompokkan sparepart berdasarkan frekuensi kerusakan dan harga rata-rata untuk menentukan prioritas stok (High, Medium, Low Priority).
 
-[cite_start]Proyek ini disusun sebagai tugas akhir mata kuliah Data Mining[cite: 1].
+Proyek ini disusun sebagai tugas akhir mata kuliah Data Mining.
 
 ## 🎯 Tujuan Penelitian
 
-1.  **Efisiensi Stok:** Mengidentifikasi *sparepart* yang paling sering dibutuhkan (Fast Moving).
+1.  **Efisiensi Stok:** Mengidentifikasi sparepart yang paling sering dibutuhkan (Fast Moving).
 2.  **Pola Kerusakan:** Memvisualisasikan tren kerusakan bulanan.
-3.  [cite_start]**Segmentasi:** Mengelompokkan barang berdasarkan tingkat urgensi menggunakan *Clustering*[cite: 14, 33].
+3.  **Segmentasi:** Mengelompokkan barang berdasarkan tingkat urgensi menggunakan Clustering.
 
 ## 🛠️ Teknologi & Library
 
 Proyek ini dibangun menggunakan Python dengan library berikut:
 
 * **Pandas & NumPy:** Manipulasi dan pembersihan data.
-* [cite_start]**Matplotlib & Seaborn:** Visualisasi data (Barplot, Time Series, Scatter Plot)[cite: 13, 31].
+* **Matplotlib & Seaborn:** Visualisasi data (Barplot, Time Series, Scatter Plot).
 * **Scikit-Learn:** Implementasi algoritma K-Means dan StandardScaler.
-* **OpenPyXL:** Ekstraksi data dari file Excel `.xlsx`.
+* **OpenPyXL:** Ekstraksi data dari file Excel .xlsx.
 
 ## 📂 Struktur Folder
 
 ```text
-├── Image/                   # Folder penyimpanan hasil visualisasi (Grafik)
+├── image/                   # Folder penyimpanan hasil visualisasi (Grafik)
 │   ├── grafik_1_top10_sparepart.png
 │   ├── grafik_2_tren_bulanan.png
 │   └── grafik_3_hasil_clustering.png
@@ -44,19 +45,23 @@ Proyek ini dibangun menggunakan Python dengan library berikut:
 
 ## 📊 Hasil Analisis & Visualisasi
 
-Berikut adalah hasil visualisasi data yang telah diolah:
+Berikut adalah hasil visualisasi data yang telah diolah dari penelitian ini:
 
 ### 1. Top 10 Sparepart Paling Sering Rusak
 
 Grafik ini menunjukkan komponen yang memiliki frekuensi penggantian tertinggi.
+![Alt text](https://github.com/Ikbal-hand/uas_dataMining/blob/main/image/grafik_1_top10_sparepart.png)
+
 
 ### 2. Tren Kerusakan Bulanan (Time Series)
 
 Analisis tren untuk melihat lonjakan permintaan perbaikan pada bulan-bulan tertentu.
+![Trend Bulanan](https://github.com/Ikbal-hand/uas_dataMining/blob/main/image/grafik_2_tren_bulanan.png)
 
 ### 3. Hasil Clustering (K-Means)
 
-Segmentasi *sparepart* menjadi 3 klaster:
+Segmentasi sparepart menjadi 3 klaster:
+![Hasil Clusterring](https://github.com/Ikbal-hand/uas_dataMining/blob/main/image/grafik_3_hasil_clustering.png)
 
 * 🔴 **High Priority:** Sering rusak, stok wajib banyak.
 * 🟠 **Medium Priority:** Kerusakan sedang.
@@ -69,8 +74,8 @@ Ikuti langkah-langkah berikut untuk menjalankan analisis di komputer lokal Anda:
 ### 1. Clone Repository
 
 ```bash
-git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
-cd nama-repo
+git clone [https://github.com/Ikbal-hand/uas_dataMining.git](https://github.com/Ikbal-hand/uas_dataMining.git)
+cd uas_dataMining
 
 ```
 
@@ -125,10 +130,5 @@ python 2_analisis_clustering.py
 *Dibuat untuk memenuhi Tugas UAS Data Mining 2026*
 
 ```
-
-### 💡 Poin Penting Agar Gambar Muncul:
-1.  Pastikan Anda **membuat folder baru** bernama `Image` di dalam repository Anda.
-2.  Setelah Anda menjalankan script `2_analisis_clustering.py`, **pindahkan** 3 file gambar PNG yang dihasilkan (`grafik_1...`, `grafik_2...`, `grafik_3...`) ke dalam folder `Image` tersebut.
-3.  Lakukan `git add`, `git commit`, dan `git push` agar folder `Image` dan isinya naik ke GitHub.
 
 ```
